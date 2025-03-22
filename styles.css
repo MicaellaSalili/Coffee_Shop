@@ -22,25 +22,25 @@ a:visited {
     background-color: #c5a16d;
     color: black;
     font-size: 36px;
+    text-indent: 48%;
     font-weight: bold;
     padding: 20px;
     margin-bottom: 10px;
-    text-align: 50%;
 }
 .css-nav {
     background-color: #f3e5ab;
     width: 300px;
-    min-height: 66.5vh;
     position: absolute;
     top: 100px;
     left: 10px;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 .css-nav a {
     display: block;
     text-decoration: none;
-    padding: 20px;
+    padding: 36px;
     color: black;
     font-weight: bold;
     font-size: 22px;
@@ -52,12 +52,14 @@ a:visited {
 .css-version #main-content div {
     flex: 1;
     padding-right: 20px;
+    align-items: 10%;
 }
 .css-version #main-content p,
 .css-version #main-content ul {
     font-size: 18px;
-    color: #3d2216;
+    color: #000000;
     text-align: left;
+    margin-left: 5%;
 }
 .css-version #main-content img {
     width: 180px;
@@ -117,14 +119,14 @@ a:visited {
 }
 .css-version #footer {
     background-color: #c49a6c;
-    color: #f7f7f7;
+    color: #4e2504;
     text-align: center;
     padding: 12px;
     border-top: 10px solid #3d2216;
     font-size: 14px;
 }
 .css-version #footer a {
-    color: #010205;
+    color: #080808;
     text-decoration: none;
     font-weight: bold;
 }
